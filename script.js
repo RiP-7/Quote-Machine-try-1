@@ -25,8 +25,6 @@ const quotes = [
     "What do you mean by forgot the textbook? Do you forget to eat?"
     ];
 
-
-
 const quoteElement = document.getElementById("quote");
 const newQuoteButton = document.getElementById("new");
     
@@ -34,16 +32,15 @@ function getRandomQuote() {
 const randomIndex = Math.floor(Math.random()* quotes.length);
 return quotes[randomIndex];
 }
-    
 
 function changeBackgroundColor() {
-const colors = ["#F043DA", "#ADC4CE6", "#116A7B", "#A4BC92", "#CEEDC7","#CYEDC7" ];
+const colors = [#01ccb7, #fb027f, #fffb00, #f42bec, #A4BC92, #CEEDC7,#393cff,#B007D2, #13db34 ];
 const randomColorIndex = Math.floor(Math.random() * colors.length);
 document.body.style.backgroundColor = colors[randomColorIndex];
 }
   
-// newQuoteButton.addEventListener("click", () => {
-//   const randomQuote = getRandomQuote();
-//   quoteElement.textContent = randomQuote;
-//   changeBackgroundColor();
-// });
+newQuoteButton.addEventListener(click", ()=> {
+const randomQuote = getRandomQuote();
+quoteElement.textContent = randomQuote;
+changeBackgroundColor();
+});

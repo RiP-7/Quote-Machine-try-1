@@ -10,10 +10,15 @@ font-family: 'Poppins', sans-serif;
 .box{
 text-align: center;
 padding: 30px;
+border:2px
 background-color: #0f0f0f;
 border-radius: 15px;
 box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.159);
 width: 250px;
+}
+
+box:hover {
+border:5px
 }
 
 boxquote {
