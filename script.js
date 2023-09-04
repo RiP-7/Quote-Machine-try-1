@@ -34,13 +34,15 @@ return quotes[randomIndex];
 }
 
 function changeBackgroundColor() {
-const colors = [#01ccb7, #fb027f, #fffb00, #f42bec, #A4BC92, #CEEDC7,#393cff,#B007D2, #13db34 ];
+const colors = ["#FFF3DA", "#ADC4CE6", "#116A7B", "#A4BC92", "#CEEDC7","#CYEDC7" ];
 const randomColorIndex = Math.floor(Math.random() * colors.length);
 document.body.style.backgroundColor = colors[randomColorIndex];
 }
   
-newQuoteButton.addEventListener(click", ()=> {
+newQuoteButton.addEventListener(click, ()=> {
 const randomQuote = getRandomQuote();
 quoteElement.textContent = randomQuote;
 changeBackgroundColor();
 });
+// Initial quote and background color change
+newQuoteButton.click();
