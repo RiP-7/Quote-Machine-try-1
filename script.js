@@ -1,7 +1,7 @@
 const quotes = [
     "If you want to talk, please get out of the class and talk.", 
     "Don't try to act oversmart with me.", 
-    "Talk loudly! You didn’t have breakfast or what?",
+    "Talk loudly! You did not have breakfast or what?",
     "Are you here to waste your parents' money?",
     " *Hits you with a chalk* ",
     "In my 16 years of teaching, I have never seen this type of class.", 
@@ -9,7 +9,7 @@ const quotes = [
     "Be quiet! Is this a fish market?",
     "We are so behind on the portion!",
     "Who did this? Tell me or no one goes home!",
-    "Give me your parent’s phone number.",
+    "Give me your parents phone number.",
     "No daydreaming in my class!",
     "I took the free period to teach my subject.",
     "I will not tolerate such behaviour in my class!",
@@ -25,24 +25,27 @@ const quotes = [
     "What do you mean by forgot the textbook? Do you forget to eat?"
     ];
 
+ 
+   
 const quoteElement = document.getElementById("quote");
-const newQuoteButton = document.getElementById("new");
-    
+const newQuoteButton = document.getElementById("new-quote");
+
 function getRandomQuote() {
-const randomIndex = Math.floor(Math.random()* quotes.length);
-return quotes[randomIndex];
+  const randomIndex = Math.floor(Math.random() * quotes.length);
+  return quotes[randomIndex];
 }
 
 function changeBackgroundColor() {
-const colors = ["#FFF3DA", "#ADC4CE6", "#116A7B", "#A4BC92", "#CEEDC7","#CYEDC7" ];
-const randomColorIndex = Math.floor(Math.random() * colors.length);
-document.body.style.backgroundColor = colors[randomColorIndex];
+  const colors = ["#FFF3DA", "#ADC4CE6", "#116A7B", "#A4BC92", "#CEEDC7","#CYEDC7" ];
+  const randomColorIndex = Math.floor(Math.random() * colors.length);
+  document.body.style.backgroundColor = colors[randomColorIndex];
 }
-  
-newQuoteButton.addEventListener(click, ()=> {
-const randomQuote = getRandomQuote();
-quoteElement.textContent = randomQuote;
-changeBackgroundColor();
+
+newQuoteButton.addEventListener(click, () => {
+  const randomQuote = getRandomQuote();
+  quoteElement.textContent = randomQuote;
+  changeBackgroundColor();
 });
+
 // Initial quote and background color change
 newQuoteButton.click();
