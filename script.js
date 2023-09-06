@@ -1,29 +1,53 @@
 const quotes= [
-    "If you want to talk, please get out of the class and talk.", 
-    "Don't try to act oversmart with me.", 
-    "Talk loudly! You did not have breakfast or what?",
-    "Are you here to waste your parents' money?",
-    " *Hits you with a chalk* ",
-    "In my 16 years of teaching, I have never seen this type of class.", 
-    "I want pin drop silence in class!",
-    "Be quiet! Is this a fish market?",
-    "We are so behind on the portion!",
-    "Who did this? Tell me or no one goes home!",
-    "Give me your parents phone number.",
-    "No daydreaming in my class!",
-    "I took the free period to teach my subject.",
-    "I will not tolerate such behaviour in my class!",
-    "Your body is here but your mind is wandering.",
-    "Just 2 more minutes.(10 minutes after the recess started)",
-    "Tell me when you all have finished talking.", 
-    " *Bangs the duster on the table* ",
-    "You think we teachers are fools to teach you?",
-    "Why are you laughing? Come to the front and tell us all. Tell us the joke too, we also want to laugh.", 
-    "Are you here only to waste your parents' money?", 
-    "Sit properly. This is a classroom, not your house!",
-    "Keep quiet! The principal is taking a round of the school.",
-    "What do you mean by forgot the textbook? Do you forget to eat?"
-    ];
+  {text:"If you want to talk, please get out of the class and talk."
+  author: "Your teacher"},
+  {text:"Don't try to act oversmart with me."
+  author: "Your teacher"},
+  {text:"Talk loudly! You did not have breakfast or what?"
+  author: "Your teacher"},
+  {text:"*Hits you with a chalk*"
+  author: "Your teacher"},
+  {text:"In my 10 years of teaching, I have never seen this type of class."
+  author: "Your teacher"},
+  {text:"I want pin drop silence in class!"
+  author: "Your teacher"},
+  {text:"Are you here to waste your parents' money?"
+  author: "Your teacher"},
+  {text:"Be quiet! Is this a class or a fish market?"
+  author: "Your teacher"},
+  {text:"We are so behind on the portion! We need to catch up like A division."
+  author: "Your teacher"},
+  {text:"Give me your parents phone number."
+  author: "Your teacher"},
+  {text:"No daydreaming in my class!"
+  author: "Your teacher"},
+  {text:"Just 2 more minutes.(10 minutes after the recess started)"
+  author: "Your teacher"},
+  {text:"Tell me when you all have finished talking"
+  author: "Your teacher"},
+  {text:"Your body is here but your mind is wandering. Physically you are here but where are you mentally?"
+  author: "Your teacher"},
+  {text:"I took the free period to teach my subject."
+  author: "Your teacher"},
+  {text:"*Bangs the duster on the table*"
+  author: "Your teacher"},
+  {text:"Who did this? Tell me or no one goes home!"
+  author: "Your teacher"},
+  {text:"Are you here only to waste your parents' money?"
+  author: "Your teacher"},
+  {text:"I will not tolerate such behaviour in my class!"
+  author: "Your teacher"},
+  {text:"You think we teachers are fools to teach you?"
+  author: "Your teacher"},
+  {text:"Sit properly. This is a classroom, not your house!"
+  author: "Your teacher"},
+  {text:"What do you mean by forgot the textbook? Do you forget to eat?"
+  author: "Your teacher"},
+  {text:"Why are you laughing? Come to the front and tell us all. Tell us the joke too, we also want to laugh."
+  author: "Your teacher"},
+  {text:"Keep quiet! The principal is taking a round of the school."
+  author: "Your teacher"},
+  ];
 
  
    
