@@ -53,9 +53,11 @@ const quotes= [
    
     const backgrounds = [
       "https://images.hindustantimes.com/img/2022/01/20/1600x900/a0aaf782-7a22-11ec-92d4-e30affc03428_1642705111219.jpg",
+      "https://images.indianexpress.com/2022/03/classroom.jpg",
       "https://ichef.bbci.co.uk/news/976/cpsprodpb/2B1A/production/_124343011_gettyimages-144104082.jpg",
       "https://inc42.com/wp-content/uploads/2019/09/teacher-featured.jpg",
       "https://img.freepik.com/premium-photo/blank-chalkboard-wall-classroom-3d-render_124437-1959.jpg",
+      "https://akshardham.com/newdelhi/wp-content/uploads/2015/05/akshardham_schoolvisit.jpg",
       "https://i0.wp.com/mumbai7.com/wp-content/uploads/2016/04/dreamstime_s_193769319.jpg",
       "https://www.heraldgoa.in/uploads/news/big_179675_school.png",
       "https://www.thestatesman.com/wp-content/uploads/2019/04/iStock-1072470136.jpg",
