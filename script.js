@@ -102,10 +102,6 @@ const quotes= [
       document.querySelector("button").style.backgroundColor = randomColor; // Set button background color
       document.querySelector(".quote").textContent = text;
       document.querySelector(".author").textContent = "- " + author;
-      //document.querySelector(".quote").style.color = randomColor; // Set text color
-      //document.querySelector(".author").style.color = randomColor;
-      //document.querySelector("#top-left-text").style.color = randomColor; // Set author color
-      
       getRandomBackground(); // Set the background image
     }
     
