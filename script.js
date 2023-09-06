@@ -76,7 +76,7 @@ const quotes= [
     function getRandomColor() {
       const colors = [
         "#740001", "#de353e", "#0e1a40", "#ecb939",
-        "#8f569a", "#2a623d", "#222f5b", "#f0c75e",, "#ff4000"
+        "#8f569a", "#2a623d", "#222f5b", "#f0c75e", "#ff4000",
         "#eeba30", "#5d5d5d","#dd0088", "#946b2d", "#372e29"
       ];
       return colors[Math.floor(Math.random() * colors.length)];
